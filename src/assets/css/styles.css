@@ -1,0 +1,91 @@
+.hero {
+  /* Sizing */
+  width: 100vw;
+  height: 100vh;
+
+  /* Flexbox stuff */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* Text styles */
+  /* text-align: center; */
+
+  /* Background styles */
+  background-image: url(../images/home-hero.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  overflow: hidden;
+}
+
+.navbar {
+  transition: all 0.5s;
+  position: fixed;
+  width: 100%;
+}
+
+.navbar-scrolled {
+  background-color: #2d2b2c;
+  box-shadow: 0 3px 10px #2d2b2c26;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.nav-item {
+  padding-left: 2em;
+}
+
+.job-seekers {
+  /* background-image: url(../images/home-jobseekers.jpg); */
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  width: 100%;
+}
+
+.job-seekers-message {
+  position: absolute;
+  width: 50%;
+  height: 50vh;
+  background-size: cover;
+  background-color: #ffca2c;
+}
+
+.job-seekers-message h3 {
+  font-size: 3vw;
+  font-weight: 500;
+  line-height: 1.35;
+}
+
+.job-seekers-message h5 {
+  font-weight: 500;
+  font-size: 1.4vw;
+}
+
+.job-seekers-message p {
+  font-size: 0.9vw;
+}
+
+.jobs {
+  display: flex;
+  height: 50vh;
+}
+.inner-text {
+  padding: 3% 5%;
+}
+.flex-item {
+  display: flex;
+  flex: 1;
+}
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
