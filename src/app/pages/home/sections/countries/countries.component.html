@@ -1,0 +1,16 @@
+<div class="container countries-section">
+  <div class="row flags-row">
+    <div *ngFor="let country of countries" class="col-md-4 flags-row">
+      <div class="content">
+        <div class="content-overlay"></div>
+        <img
+          class="content-image"
+          src="https://flagicons.lipis.dev/flags/4x3/{{ country.id }}.svg"
+        />
+        <div class="content-details fadeIn-bottom">
+          <h3 class="content-title">{{ country.name }}</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

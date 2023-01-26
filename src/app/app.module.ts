@@ -8,6 +8,7 @@ import { NavbarComponent } from './shared/navbar/navbar.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { HeroSectionComponent } from './pages/home/sections/hero-section/hero-section.component';
 import { JobseekersComponent } from './pages/home/sections/jobseekers/jobseekers.component';
+import { CountriesComponent } from './pages/home/sections/countries/countries.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { JobseekersComponent } from './pages/home/sections/jobseekers/jobseekers
     NavbarComponent,
     FooterComponent,
     HeroSectionComponent,
-    JobseekersComponent
+    JobseekersComponent,
+    CountriesComponent
   ],
   imports: [
     BrowserModule,
