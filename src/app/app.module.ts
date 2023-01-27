@@ -9,6 +9,7 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { HeroSectionComponent } from './pages/home/sections/hero-section/hero-section.component';
 import { JobseekersComponent } from './pages/home/sections/jobseekers/jobseekers.component';
 import { CountriesComponent } from './pages/home/sections/countries/countries.component';
+import { IndustriesServedComponent } from './pages/home/sections/industries-served/industries-served.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { CountriesComponent } from './pages/home/sections/countries/countries.co
     FooterComponent,
     HeroSectionComponent,
     JobseekersComponent,
-    CountriesComponent
+    CountriesComponent,
+    IndustriesServedComponent
   ],
   imports: [
     BrowserModule,
