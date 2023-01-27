@@ -9,3 +9,30 @@ function fadeToSolidNavbar(){
         }
     });
 }
+
+$(document).ready(function(){
+    $('.owl-carousel').owlCarousel({
+        autoplayHoverPause: true,
+        loop:true,
+        autoplay: true,
+        autoplaySpeed: 1000,
+        autoplayTimeout: 3000,
+        margin:10,
+        dots: true,
+        responsiveClass:true,
+        responsive:{
+            0:{
+                items:1,
+                nav:false
+            },
+            600:{
+                items:3,
+                nav:false
+            },
+            1000:{
+                items:5,
+                nav:false,
+            }
+        }
+    })
+  });

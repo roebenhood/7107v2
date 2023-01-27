@@ -1,16 +1,31 @@
 <div class="container countries-section">
-  <div class="row flags-row">
-    <div *ngFor="let country of countries" class="col-md-4 flags-row">
-      <div class="content">
-        <div class="content-overlay"></div>
-        <img
-          class="content-image"
-          src="https://flagicons.lipis.dev/flags/4x3/{{ country.id }}.svg"
-        />
-        <div class="content-details fadeIn-bottom">
+  <h1 class="display-5 fw-bold text-center section-title-margin">
+    Our Countries of Deployment
+  </h1>
+  <div class="owl-carousel">
+    <div *ngFor="let country of countries" class="flags-row">
+      <img
+        class="content-image"
+        src="https://flagicons.lipis.dev/flags/4x3/{{ country.id }}.svg"
+      />
+      <span class="custom-overlay">
+        <span class="content-text fadeIn-bottom">
           <h3 class="content-title">{{ country.name }}</h3>
-        </div>
-      </div>
+        </span>
+      </span>
     </div>
   </div>
 </div>
+
+<!-- <div *ngFor="let country of countries">
+  <div class="content">
+    <div class="content-overlay"></div>
+    <img
+      class="content-image"
+      src="https://flagicons.lipis.dev/flags/4x3/{{ country.id }}.svg"
+    />
+    <div class="content-details fadeIn-bottom">
+      <h3 class="content-title">{{ country.name }}</h3>
+    </div>
+  </div>
+</div> -->
