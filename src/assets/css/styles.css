@@ -26,6 +26,52 @@
   overflow: hidden;
 }
 
+.hero-about {
+  /* Sizing */
+  width: 100vw;
+  height: 100vh;
+
+  /* Flexbox stuff */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* Text styles */
+  text-align: center;
+
+  /* Background styles */
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.615),
+      rgba(0, 0, 0, 0.615)
+    ),
+    url(../images/hero-about.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  overflow: hidden;
+}
+
+.hero-about h1 {
+  font-size: 6em;
+  color: white;
+}
+
+.hero-about .highlight {
+  color: #ffca2c;
+}
+
+.hero-about .subheader {
+  color: white;
+  font-size: 1.2em;
+}
+
+.black-overlay {
+  background-color: rgba(0, 0, 0, 0.466);
+}
+
 .padding-right {
   padding-right: 25%;
 }
@@ -45,7 +91,7 @@
   font-family: "Poppins", sans-serif;
 }
 
-.nav-item {
+.header {
   padding-left: 2em;
 }
 
@@ -137,7 +183,7 @@ body {
   font-size: 16px;
   font-family: "Raleway", sans-serif;
 }
-.container {
+.container .footer {
   margin-top: 200px;
 }
 .title {
@@ -252,3 +298,25 @@ body {
   right: 0;
   position: absolute;
 }
+
+.footer-section {
+  background-color: #2d2b2c;
+  color: white;
+  padding-top: 1px;
+}
+
+.separator-about {
+  background-color: #dcbc37;
+}
+
+.separator-about .separator-content {
+  display: flex;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  font-size: 1.5em;
+}
+
+/* .separator-content {
+  padding-top: 32px;
+  padding-bottom: 32px;
+} */

@@ -10,6 +10,11 @@ import { HeroSectionComponent } from './pages/home/sections/hero-section/hero-se
 import { JobseekersComponent } from './pages/home/sections/jobseekers/jobseekers.component';
 import { CountriesComponent } from './pages/home/sections/countries/countries.component';
 import { IndustriesServedComponent } from './pages/home/sections/industries-served/industries-served.component';
+import { AboutComponent } from './pages/about/about.component';
+import { HeroAboutComponent } from './pages/about/sections/hero-about/hero-about.component';
+import { AboutStoryComponent } from './pages/about/sections/about-story/about-story.component';
+import { AboutSeparatorComponent } from './pages/about/sections/about-separator/about-separator.component';
+import { AboutPoeaComponent } from './pages/about/sections/about-poea/about-poea.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +25,12 @@ import { IndustriesServedComponent } from './pages/home/sections/industries-serv
     HeroSectionComponent,
     JobseekersComponent,
     CountriesComponent,
-    IndustriesServedComponent
+    IndustriesServedComponent,
+    AboutComponent,
+    HeroAboutComponent,
+    AboutStoryComponent,
+    AboutSeparatorComponent,
+    AboutPoeaComponent
   ],
   imports: [
     BrowserModule,
