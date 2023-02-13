@@ -15,6 +15,18 @@ import { HeroAboutComponent } from './pages/about/sections/hero-about/hero-about
 import { AboutStoryComponent } from './pages/about/sections/about-story/about-story.component';
 import { AboutSeparatorComponent } from './pages/about/sections/about-separator/about-separator.component';
 import { AboutPoeaComponent } from './pages/about/sections/about-poea/about-poea.component';
+import { AboutMissionComponent } from './pages/about/sections/about-mission/about-mission.component';
+import { ServicesComponent } from './pages/services/services.component';
+import { ServiceComponent } from './pages/services/sections/service/service.component';
+import { ServicesHeroComponent } from './pages/services/sections/services-hero/services-hero.component';
+import { ContactComponent } from './pages/contact/contact.component';
+import { HeroContactComponent } from './pages/contact/sections/hero-contact/hero-contact.component';
+import { ContactFormComponent } from './pages/contact/sections/contact-form/contact-form.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { RouterModule } from '@angular/router';
+import { JoinComponent } from './pages/join/join.component';
+import { JoinFormComponent } from './pages/join/sections/join-form/join-form.component';
+import { MapsComponent } from './shared/maps/maps.component';
 
 @NgModule({
   declarations: [
@@ -30,11 +42,23 @@ import { AboutPoeaComponent } from './pages/about/sections/about-poea/about-poea
     HeroAboutComponent,
     AboutStoryComponent,
     AboutSeparatorComponent,
-    AboutPoeaComponent
+    AboutPoeaComponent,
+    AboutMissionComponent,
+    ServicesComponent,
+    ServiceComponent,
+    ServicesHeroComponent,
+    ContactComponent,
+    HeroContactComponent,
+    ContactFormComponent,
+    JoinComponent,
+    JoinFormComponent,
+    MapsComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    RouterModule,
+    AppRoutingModule,
+    FontAwesomeModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

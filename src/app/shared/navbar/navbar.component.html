@@ -24,27 +24,41 @@
     <div class="collapse navbar-collapse" id="navbarsExample07XL">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item header">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item header">
-          <a class="nav-link" href="" routerLink="/about">About Us</a>
-        </li>
-        <li class="nav-item header">
-          <a class="nav-link disabled">Disabled</a>
-        </li>
-        <li class="nav-item header dropdown">
           <a
-            class="nav-link dropdown-toggle"
+            class="nav-link"
+            routerLinkActive="active"
+            aria-current="page"
             href="#"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-            >Dropdown</a
+            routerLink=""
+            >Home</a
           >
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
+        </li>
+        <li class="nav-item header">
+          <a
+            class="nav-link"
+            routerLinkActive="active"
+            href=""
+            routerLink="/about"
+            >About Us</a
+          >
+        </li>
+        <li class="nav-item header">
+          <a
+            class="nav-link"
+            routerLinkActive="active"
+            href=""
+            routerLink="/services"
+            >Services</a
+          >
+        </li>
+        <li class="nav-item header">
+          <a
+            class="nav-link"
+            routerLinkActive="active"
+            href=""
+            routerLink="/contact-us"
+            >Contact Us</a
+          >
         </li>
       </ul>
       <button
@@ -52,7 +66,7 @@
         class="btn btn-warning btn-lg px-4 me-md-2"
         style="border-radius: 25px"
       >
-        Primary
+        Join Now
       </button>
     </div>
   </div>
